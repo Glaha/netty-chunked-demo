@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="1d8ecf22-443d-49de-9d41-9aec8f10eeab" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="netty-demos" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="/usr/local/Cellar/maven/3.6.3/libexec" />
+        <option name="usePluginRegistry" value="true" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1Wh3cGKeyNkwHh4ZFXWn3STTDhd" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+  </component>
+  <component name="RunManager">
+    <configuration name="HelloworldHttpServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="HelloworldHttpServer" />
+      <module name="netty-helloworld" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType" factoryName="Kotlin">
+      <module name="netty-helloworld" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType" factoryName="Kotlin script">
+      <module name="netty-helloworld" />
+      <option name="filePath" />
+      <option name="vmParameters" />
+      <option name="alternativeJrePath" />
+      <option name="programParameters" />
+      <option name="passParentEnvs" value="true" />
+      <option name="workingDirectory" />
+      <option name="isAlternativeJrePathEnabled" value="false" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="filePath" />
+      <option name="vmParameters" />
+      <option name="alternativeJrePath" />
+      <option name="programParameters" />
+      <option name="passParentEnvs" value="true" />
+      <option name="workingDirectory" />
+      <option name="isAlternativeJrePathEnabled" value="false" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.HelloworldHttpServer" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="1d8ecf22-443d-49de-9d41-9aec8f10eeab" name="Default Changelist" comment="" />
+      <created>1579588076328</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1579588076328</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="2216" y="202" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1579591365532">
+      <screen x="1792" y="0" width="1920" height="1080" />
+    </state>
+    <state x="2216" y="202" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1792.1120/1792.0.1920.1080@1792.0.1920.1080" timestamp="1579591365532" />
+    <state x="773" y="271" key="#com.intellij.ide.util.MemberChooser" timestamp="1579599546841">
+      <screen x="0" y="23" width="1792" height="1024" />
+    </state>
+    <state x="773" y="271" key="#com.intellij.ide.util.MemberChooser/0.23.1792.1024@0.23.1792.1024" timestamp="1579599546841" />
+    <state width="1750" height="265" key="GridCell.Tab.0.bottom" timestamp="1579620625131">
+      <screen x="0" y="23" width="1792" height="1024" />
+    </state>
+    <state width="1878" height="304" key="GridCell.Tab.0.bottom/0.0.1792.1120/1792.0.1920.1080@1792.0.1920.1080" timestamp="1579591877346" />
+    <state width="1750" height="265" key="GridCell.Tab.0.bottom/0.23.1792.1024@0.23.1792.1024" timestamp="1579620625131" />
+    <state width="1750" height="265" key="GridCell.Tab.0.center" timestamp="1579620625130">
+      <screen x="0" y="23" width="1792" height="1024" />
+    </state>
+    <state width="1878" height="304" key="GridCell.Tab.0.center/0.0.1792.1120/1792.0.1920.1080@1792.0.1920.1080" timestamp="1579591877345" />
+    <state width="1750" height="265" key="GridCell.Tab.0.center/0.23.1792.1024@0.23.1792.1024" timestamp="1579620625130" />
+    <state width="1750" height="265" key="GridCell.Tab.0.left" timestamp="1579620625130">
+      <screen x="0" y="23" width="1792" height="1024" />
+    </state>
+    <state width="1878" height="304" key="GridCell.Tab.0.left/0.0.1792.1120/1792.0.1920.1080@1792.0.1920.1080" timestamp="1579591877344" />
+    <state width="1750" height="265" key="GridCell.Tab.0.left/0.23.1792.1024@0.23.1792.1024" timestamp="1579620625130" />
+    <state width="1750" height="265" key="GridCell.Tab.0.right" timestamp="1579620625131">
+      <screen x="0" y="23" width="1792" height="1024" />
+    </state>
+    <state width="1878" height="304" key="GridCell.Tab.0.right/0.0.1792.1120/1792.0.1920.1080@1792.0.1920.1080" timestamp="1579591877345" />
+    <state width="1750" height="265" key="GridCell.Tab.0.right/0.23.1792.1024@0.23.1792.1024" timestamp="1579620625131" />
+    <state width="1750" height="328" key="GridCell.Tab.1.bottom" timestamp="1579620625125">
+      <screen x="0" y="23" width="1792" height="1024" />
+    </state>
+    <state width="1750" height="328" key="GridCell.Tab.1.bottom/0.23.1792.1024@0.23.1792.1024" timestamp="1579620625125" />
+    <state width="1750" height="328" key="GridCell.Tab.1.center" timestamp="1579620625125">
+      <screen x="0" y="23" width="1792" height="1024" />
+    </state>
+    <state width="1750" height="328" key="GridCell.Tab.1.center/0.23.1792.1024@0.23.1792.1024" timestamp="1579620625125" />
+    <state width="1750" height="328" key="GridCell.Tab.1.left" timestamp="1579620625125">
+      <screen x="0" y="23" width="1792" height="1024" />
+    </state>
+    <state width="1750" height="328" key="GridCell.Tab.1.left/0.23.1792.1024@0.23.1792.1024" timestamp="1579620625125" />
+    <state width="1750" height="328" key="GridCell.Tab.1.right" timestamp="1579620625125">
+      <screen x="0" y="23" width="1792" height="1024" />
+    </state>
+    <state width="1750" height="328" key="GridCell.Tab.1.right/0.23.1792.1024@0.23.1792.1024" timestamp="1579620625125" />
+    <state x="2290" y="202" key="Maven.ArtifactSearchDialog" timestamp="1579596534114">
+      <screen x="1792" y="0" width="1920" height="1080" />
+    </state>
+    <state x="2290" y="202" key="Maven.ArtifactSearchDialog/0.0.1792.1120/1792.0.1920.1080@1792.0.1920.1080" timestamp="1579596534114" />
+    <state x="2240" y="121" key="SettingsEditor" timestamp="1579596415659">
+      <screen x="1792" y="0" width="1920" height="1080" />
+    </state>
+    <state x="2240" y="121" key="SettingsEditor/0.0.1792.1120/1792.0.1920.1080@1792.0.1920.1080" timestamp="1579591064130" />
+    <state x="2240" y="121" key="SettingsEditor/0.23.1792.1097/1792.0.1920.1080@1792.0.1920.1080" timestamp="1579596415659" />
+    <state x="609" y="376" key="com.intellij.ide.util.TipDialog" timestamp="1579598825676">
+      <screen x="0" y="23" width="1792" height="1024" />
+    </state>
+    <state x="2445" y="372" key="com.intellij.ide.util.TipDialog/0.0.1792.1120/1792.0.1920.1080@1792.0.1920.1080" timestamp="1579590904396" />
+    <state x="609" y="376" key="com.intellij.ide.util.TipDialog/0.23.1792.1024@0.23.1792.1024" timestamp="1579598825676" />
+    <state x="583" y="252" width="670" height="641" key="search.everywhere.popup" timestamp="1579600422333">
+      <screen x="0" y="23" width="1792" height="1024" />
+    </state>
+    <state x="2417" y="241" width="670" height="676" key="search.everywhere.popup/0.0.1792.1120/1792.0.1920.1080@1792.0.1920.1080" timestamp="1579596504097" />
+    <state x="583" y="252" width="670" height="641" key="search.everywhere.popup/0.23.1792.1024@0.23.1792.1024" timestamp="1579600422333" />
+  </component>
+</project>
