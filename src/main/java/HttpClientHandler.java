@@ -3,9 +3,6 @@ import io.netty.buffer.Unpooled;
 import io.netty.channel.ChannelHandlerContext;
 import io.netty.channel.ChannelInboundHandlerAdapter;
 import io.netty.handler.codec.http.*;
-import io.netty.handler.stream.ChunkedFile;
-
-import java.io.File;
 
 public class HttpClientHandler extends ChannelInboundHandlerAdapter {
 
@@ -111,7 +108,7 @@ public class HttpClientHandler extends ChannelInboundHandlerAdapter {
                 HttpMethod.POST, "http://localhost:8888/", Unpooled.wrappedBuffer(message.getBytes()));
         httpRequest.headers().set(HttpHeaderNames.HOST, "localhost");
         httpRequest.headers().set(HttpHeaderNames.TRANSFER_ENCODING, HttpHeaderValues.CHUNKED);
-//        httpRequest.headers().set(HttpHeaderNamsess.CONTENT_LENGTH, message.length());
+        //httpRequest.headers().set(HttpHeaderNames.CONTENT_LENGTH, 0);
 //        httpRequest.headers().set(HttpHeaderNames.CONNECTION, HttpHeaderValues.CLOSE);
         ctx.channel().writeAndFlush(httpRequest);
 
