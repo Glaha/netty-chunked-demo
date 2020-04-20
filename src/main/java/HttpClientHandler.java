@@ -3,6 +3,10 @@ import io.netty.buffer.Unpooled;
 import io.netty.channel.ChannelHandlerContext;
 import io.netty.channel.ChannelInboundHandlerAdapter;
 import io.netty.handler.codec.http.*;
+import io.netty.handler.stream.ChunkedFile;
+import io.netty.util.internal.StringUtil;
+
+import java.io.File;
 
 public class HttpClientHandler extends ChannelInboundHandlerAdapter {
 
@@ -104,17 +108,34 @@ public class HttpClientHandler extends ChannelInboundHandlerAdapter {
 
     @Override
     public void channelActive(ChannelHandlerContext ctx) throws Exception {
+
+        String sport = System.getenv("GLAHA_CHUNK_PORT");
+        String shost = System.getenv("GLAHA_CHUNK_HOST");
+        String surl = System.getenv("GLAHA_CHUNK_URL");
+
+        int port = StringUtil.isNullOrEmpty(sport)? HttpClient.PORT:Integer.valueOf(sport);
+        String host = StringUtil.isNullOrEmpty(shost)?HttpClient.HOST:shost;
+        String url = StringUtil.isNullOrEmpty(surl)?HttpClient.URL:surl;
+
         DefaultHttpRequest httpRequest = new DefaultFullHttpRequest(HttpVersion.HTTP_1_1,
-                HttpMethod.POST, "http://localhost:8888/", Unpooled.wrappedBuffer(message.getBytes()));
-        httpRequest.headers().set(HttpHeaderNames.HOST, "localhost");
+                HttpMethod.POST, "http://" + host + ":" + port + url, Unpooled.wrappedBuffer(message.getBytes()));
+        httpRequest.headers().set(HttpHeaderNames.HOST, host);
         httpRequest.headers().set(HttpHeaderNames.TRANSFER_ENCODING, HttpHeaderValues.CHUNKED);
         //httpRequest.headers().set(HttpHeaderNames.CONTENT_LENGTH, 0);
 //        httpRequest.headers().set(HttpHeaderNames.CONNECTION, HttpHeaderValues.CLOSE);
         ctx.channel().writeAndFlush(httpRequest);
 
-//        HttpChunkedInput httpChunkedInput = new HttpChunkedInput(new ChunkedFile(
-//                new File(ClassLoader.getSystemClassLoader().getResource("good.file").getPath())));
-//        ctx.channel().writeAndFlush(httpChunkedInput);
+       /* HttpHeaders httpHeaders = new DefaultHttpHeaders();
+        httpHeaders.set(HttpHeaderNames.HOST, "localhost");
+        httpHeaders.set(HttpHeaderNames.TRANSFER_ENCODING, HttpHeaderValues.CHUNKED);
+        DefaultHttpRequest defaultHttpRequest = new DefaultHttpRequest(HttpVersion.HTTP_1_1, HttpMethod.POST, "http://localhost:8888/",httpHeaders);
+
+        HttpChunkedInput httpChunkWriter = new HttpChunkedInput(
+                new ChunkedFile("/tmp/myfile.txt"));
+        HttpChunkedInput httpChunkedInput = new HttpChunkedInput(new ChunkedFile(
+                new File(ClassLoader.getSystemClassLoader().getResource("good.file").getPath())),new DefaultLastHttpContent());
+        ctx.channel().write(defaultHttpRequest);
+        ctx.channel().writeAndFlush(httpChunkedInput);*/
     }
 
     private ByteBuf getContentByteBuf() {
